@@ -1,0 +1,12 @@
+WARNING - utils.py - 2024-07-05 15:39:21,177 - No checkpoint found at .\checkpoints-meta\checkpoint.pth. Returned the same state as input
+INFO - xla_bridge.py - 2024-07-05 15:39:21,188 - Remote TPU is not linked into jax; skipping remote TPU.
+INFO - xla_bridge.py - 2024-07-05 15:39:21,189 - Unable to initialize backend 'tpu_driver': Could not initialize backend 'tpu_driver'
+INFO - xla_bridge.py - 2024-07-05 15:39:21,259 - Unable to initialize backend 'tpu': INVALID_ARGUMENT: TpuPlatform is not available.
+INFO - dataset_info.py - 2024-07-05 15:39:21,265 - Load dataset info from C:\Users\rrazafin\tensorflow_datasets\celeb_a_dataset\2.0.1
+INFO - dataset_builder.py - 2024-07-05 15:39:21,272 - Reusing dataset celeb_a_dataset (C:\Users\rrazafin\tensorflow_datasets\celeb_a_dataset\2.0.1)
+INFO - dataset_builder.py - 2024-07-05 15:39:21,273 - Constructing tf.data.Dataset for split train, from C:\Users\rrazafin\tensorflow_datasets\celeb_a_dataset\2.0.1
+INFO - dataset_builder.py - 2024-07-05 15:39:22,072 - Reusing dataset celeb_a_dataset (C:\Users\rrazafin\tensorflow_datasets\celeb_a_dataset\2.0.1)
+INFO - dataset_builder.py - 2024-07-05 15:39:22,072 - Constructing tf.data.Dataset for split validation, from C:\Users\rrazafin\tensorflow_datasets\celeb_a_dataset\2.0.1
+INFO - run_lib.py - 2024-07-05 15:39:23,657 - Starting training loop at step 0.
+INFO - run_lib.py - 2024-07-05 15:40:20,865 - step: 0, training_loss: 6.14314e+03
+INFO - run_lib.py - 2024-07-05 15:40:41,601 - step: 0, eval_loss: 6.15086e+03
